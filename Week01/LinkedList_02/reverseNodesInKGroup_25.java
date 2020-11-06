@@ -1,13 +1,20 @@
 package LinkedList_02;
 
 public class reverseNodesInKGroup_25 {
-    public static void main(String[] args) {
-        ListNode head = new ListNode(0);
-        head.next = new ListNode(1);
-        reverseKGroup(head, 2);
-    }
+    /**
+     * description
+     * param [args]
+     * return void
+     * author Ryan Xu
+     * createTime 2020/11/5
+     **/
+//    public static void main(String[] args) {
+//        ListNode head = new ListNode(0);
+//        head.next = new ListNode(1);
+//        reverseKGroup(head, 2);
+//    }
 
-    public static class ListNode {
+    public class ListNode {
       int val;
       ListNode next;
       ListNode() {}
@@ -15,15 +22,15 @@ public class reverseNodesInKGroup_25 {
       ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 
-    public static ListNode reverseKGroup(ListNode head, int k) {
+    public ListNode reverseKGroup(ListNode head, int k) {
         ListNode dummy = new ListNode(0);
         dummy.next = head;
         ListNode pre = dummy;
         ListNode end = dummy;
 
-        while (end.next != null) {
-            for (int i = 0; i < k; i++) end = end.next;
-            if (null == end) break;
+        while (end != null) {
+            for (int i = 0; i < k && end != null; i++) end = end.next;
+            if(null == end) break;
             ListNode start = pre.next;
             ListNode next = end.next;
             end.next = null;
@@ -31,14 +38,14 @@ public class reverseNodesInKGroup_25 {
             start.next = next;
 
             pre = start;
-            end = start;
+            end =start;
         }
         return dummy.next;
     }
 
-    public static ListNode reverse(ListNode start) {
-        ListNode pre = null;
+    public ListNode reverse(ListNode start) {
         ListNode cur = start;
+        ListNode pre = null;
         ListNode temp = null;
         while (cur != null) {
             temp = cur.next;
