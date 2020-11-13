@@ -1,4 +1,4 @@
-package HashTable_01;
+package Recursion_04;
 
 /**
  * @description:
@@ -24,7 +24,7 @@ public class ClimbingStairs_70 {
     }
 
     public int climbStairs1(int n) {
-        int f1 = 0, f2 = 0, f3 = 1;
+        int f1 = 0, f2 = 1, f3 = 1;
         for (int i = 1; i < n; i++) {
             f1 = f2;
             f2 = f3;
