@@ -1,0 +1,15 @@
+# 安排计划（完善中）
+周一到周日，一天一个题，总共2个月，循环四次
+
+第二周
+-----
+
+|题号|题目名称|难度|类型|#1[实现]|#2[优化]|#3[一天后]|#4[一周后]|#5[面试前一周]|
+|---|---|---|---|---|---|---|---|---|
+|[297](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)|serialize-and-deserialize-binary-tree|Hard|Recursion|2020-11-16/|2020-11-16/|2020-11-17/2020-11-17|2020-11-23/|---|
+|[236]|lowest-common-ancestor-of-a-binary-tree|Medium|Recursion|2020-11-17/2020-11-17|2020-11-17/2020-11-17|2020-11-18/|2020-11-24/|---|
+|[51]|n-queens|Hard|Backtracking|2020-11-18/|2020-11-18/|2020-11-19/|2020-11-25/|---|
+|[78]|subsets|Medium|Backtracking|2020-11-19/|2020-11-19/|2020-11-20/|2020-11-26/|---|
+|[102]|binary-tree-level-order-traversal|Medium|DFS&BFS|2020-11-20/|2020-11-20/|2020-11-21/|2020-11-27/|---|
+|[69]|sqrtx|Easy|BinarySearch|2020-11-21/|2020-11-21/|2020-11-22/|2020-11-28/|---|
+
