@@ -8,8 +8,8 @@
 |---|---|---|---|---|---|---|---|---|
 |[242](https://leetcode-cn.com/problems/valid-anagram/)|valid-anagram|Easy|HashTable|2020-11-9/2020-11-9|2020-11-9/2020-11-9|2020-11-10/2020-11-10|2020-11-17/2020-11-16|---|
 |[144](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)|binary-tree-preorder-traversal|Medium|Tree|2020-11-10/2020-11-10|2020-11-11/2020-11-11|2020-11-18/2020-11-17|---|
-|[264](https://leetcode-cn.com/problems/ugly-number-ii/)|ugly-number-ii|Medium|Heap|2020-11-11/2020-11-12|2020-11-11/2020-11-12|2020-11-12/2020-11-13|2020-11-19/|---|
-|[70](https://leetcode-cn.com/problems/climbing-stairs/)|climbing-stairs|Easy|Recursion|2020-11-12/2020-11-12|2020-11-12/2020-11-12|2020-11-13/2020-11-13|2020-11-20/|---|
+|[264](https://leetcode-cn.com/problems/ugly-number-ii/)|ugly-number-ii|Medium|Heap|2020-11-11/2020-11-12|2020-11-11/2020-11-12|2020-11-12/2020-11-13|2020-11-19/2020-11-18|---|
+|[70](https://leetcode-cn.com/problems/climbing-stairs/)|climbing-stairs|Easy|Recursion|2020-11-12/2020-11-12|2020-11-12/2020-11-12|2020-11-13/2020-11-13|2020-11-20/2020-11-19|---|
 |[200](https://leetcode-cn.com/problems/number-of-islands/)|number-of-islands|Medium|Graph|2020-11-13/2020-11-13|2020-11-13/2020-11-13|2020-11-14/2020-11-14|2020-11-21/|---|
 |[110](https://leetcode-cn.com/problems/balanced-binary-tree/)|balanced-binary-tree|Easy|Recursion|2020-11-14/2020-11-14|2020-11-15/2020-11-14|2020-11-16/2020-11-16|2020-11-22/|---|
 
